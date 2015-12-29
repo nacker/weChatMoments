@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62540F8C1C329F84009B9461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62540F8B1C329F84009B9461 /* main.m */; };
+		62540F8F1C329F84009B9461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62540F8E1C329F84009B9461 /* AppDelegate.m */; };
+		62540F921C329F84009B9461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62540F911C329F84009B9461 /* ViewController.m */; };
+		62540F951C329F84009B9461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62540F931C329F84009B9461 /* Main.storyboard */; };
+		62540F971C329F84009B9461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62540F961C329F84009B9461 /* Assets.xcassets */; };
+		62540F9A1C329F84009B9461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62540F981C329F84009B9461 /* LaunchScreen.storyboard */; };
+		62540FA91C32A7E7009B9461 /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 62540FA81C32A7E7009B9461 /* UIView+Extention.m */; };
+		62540FAB1C32AA24009B9461 /* coffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62540FAA1C32AA24009B9461 /* coffe.jpg */; };
+		62540FAF1C32AC6D009B9461 /* AlbumReflashIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62540FAE1C32AC6D009B9461 /* AlbumReflashIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62540F871C329F84009B9461 /* 微信朋友圈的小菊花.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信朋友圈的小菊花.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62540F8B1C329F84009B9461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62540F8D1C329F84009B9461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62540F8E1C329F84009B9461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62540F901C329F84009B9461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62540F911C329F84009B9461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62540F941C329F84009B9461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62540F961C329F84009B9461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62540F991C329F84009B9461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62540F9B1C329F84009B9461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62540FA71C32A7E7009B9461 /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
+		62540FA81C32A7E7009B9461 /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
+		62540FAA1C32AA24009B9461 /* coffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffe.jpg; sourceTree = "<group>"; };
+		62540FAE1C32AC6D009B9461 /* AlbumReflashIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumReflashIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62540F841C329F84009B9461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62540F7E1C329F84009B9461 = {
+			isa = PBXGroup;
+			children = (
+				62540F891C329F84009B9461 /* 微信朋友圈的小菊花 */,
+				62540F881C329F84009B9461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62540F881C329F84009B9461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62540F871C329F84009B9461 /* 微信朋友圈的小菊花.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62540F891C329F84009B9461 /* 微信朋友圈的小菊花 */ = {
+			isa = PBXGroup;
+			children = (
+				62540F8D1C329F84009B9461 /* AppDelegate.h */,
+				62540F8E1C329F84009B9461 /* AppDelegate.m */,
+				62540F901C329F84009B9461 /* ViewController.h */,
+				62540F911C329F84009B9461 /* ViewController.m */,
+				62540F931C329F84009B9461 /* Main.storyboard */,
+				62540F961C329F84009B9461 /* Assets.xcassets */,
+				62540F981C329F84009B9461 /* LaunchScreen.storyboard */,
+				62540F9B1C329F84009B9461 /* Info.plist */,
+				62540F8A1C329F84009B9461 /* Supporting Files */,
+			);
+			path = "微信朋友圈的小菊花";
+			sourceTree = "<group>";
+		};
+		62540F8A1C329F84009B9461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62540FAE1C32AC6D009B9461 /* AlbumReflashIcon@2x.png */,
+				62540FA71C32A7E7009B9461 /* UIView+Extention.h */,
+				62540FA81C32A7E7009B9461 /* UIView+Extention.m */,
+				62540FAA1C32AA24009B9461 /* coffe.jpg */,
+				62540F8B1C329F84009B9461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62540F861C329F84009B9461 /* 微信朋友圈的小菊花 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62540F9E1C329F84009B9461 /* Build configuration list for PBXNativeTarget "微信朋友圈的小菊花" */;
+			buildPhases = (
+				62540F831C329F84009B9461 /* Sources */,
+				62540F841C329F84009B9461 /* Frameworks */,
+				62540F851C329F84009B9461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信朋友圈的小菊花";
+			productName = "微信朋友圈的小菊花";
+			productReference = 62540F871C329F84009B9461 /* 微信朋友圈的小菊花.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62540F7F1C329F84009B9461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "帶頭二哥";
+				TargetAttributes = {
+					62540F861C329F84009B9461 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 62540F821C329F84009B9461 /* Build configuration list for PBXProject "微信朋友圈的小菊花" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62540F7E1C329F84009B9461;
+			productRefGroup = 62540F881C329F84009B9461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62540F861C329F84009B9461 /* 微信朋友圈的小菊花 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62540F851C329F84009B9461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62540F9A1C329F84009B9461 /* LaunchScreen.storyboard in Resources */,
+				62540FAF1C32AC6D009B9461 /* AlbumReflashIcon@2x.png in Resources */,
+				62540F971C329F84009B9461 /* Assets.xcassets in Resources */,
+				62540F951C329F84009B9461 /* Main.storyboard in Resources */,
+				62540FAB1C32AA24009B9461 /* coffe.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62540F831C329F84009B9461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62540F921C329F84009B9461 /* ViewController.m in Sources */,
+				62540F8F1C329F84009B9461 /* AppDelegate.m in Sources */,
+				62540F8C1C329F84009B9461 /* main.m in Sources */,
+				62540FA91C32A7E7009B9461 /* UIView+Extention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62540F931C329F84009B9461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62540F941C329F84009B9461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62540F981C329F84009B9461 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62540F991C329F84009B9461 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62540F9C1C329F84009B9461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62540F9D1C329F84009B9461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62540F9F1C329F84009B9461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微信朋友圈的小菊花/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.lz.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62540FA01C329F84009B9461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微信朋友圈的小菊花/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.lz.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62540F821C329F84009B9461 /* Build configuration list for PBXProject "微信朋友圈的小菊花" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62540F9C1C329F84009B9461 /* Debug */,
+				62540F9D1C329F84009B9461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62540F9E1C329F84009B9461 /* Build configuration list for PBXNativeTarget "微信朋友圈的小菊花" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62540F9F1C329F84009B9461 /* Debug */,
+				62540FA01C329F84009B9461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62540F7F1C329F84009B9461 /* Project object */;
+}
